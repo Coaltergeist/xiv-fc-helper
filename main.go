@@ -52,6 +52,7 @@ func onGuildJoin(s *discordgo.Session, gc *discordgo.GuildCreate) {
 			if channel.Type == discordgo.ChannelTypeGuildText {
 				perms, _ := s.State.UserChannelPermissions(s.State.User.ID, channel.ID)
 				if perms&discordgo.PermissionSendMessages > 0 {
+					s.GuildMemberNickname(gc.Guild.ID, "@me", "Montblanc")
 					s.ChannelMessageSend(channel.ID, "New server requires configuration!")
 					break
 				}
