@@ -33,6 +33,8 @@ const (
 	CHARACTER = iota
 	// ITEM is an item in FFXIV
 	ITEM
+	// RECIPE is a crafting recipe in FFXIV
+	RECIPE
 )
 
 // A RequestType is what type of request we're making, i.e. character, item etc
