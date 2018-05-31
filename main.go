@@ -9,7 +9,7 @@ import (
 	"os/signal"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/paul-io/xiv-bot/cmds"
+	"github.com/paul-io/xiv-fc-helper/cmds"
 )
 
 type config struct {

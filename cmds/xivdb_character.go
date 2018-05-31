@@ -8,8 +8,8 @@ import (
 	"github.com/bwmarrin/discordgo"
 	"github.com/paul-io/discordgo-embeds/colors"
 	"github.com/paul-io/discordgo-embeds/embed"
-	"github.com/paul-io/xiv-bot/structs"
-	"github.com/paul-io/xiv-bot/xivdb"
+	"github.com/paul-io/xiv-fc-helper/structs"
+	"github.com/paul-io/xiv-fc-helper/xivdb"
 )
 
 func xivdbCharacterSearchCommand(s *discordgo.Session, m *discordgo.Message) {
