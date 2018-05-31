@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/paul-io/xiv-fc-helper/structs"
+	"github.com/coaltergeist/xiv-fc-helper/structs"
 	"github.com/stretchr/testify/assert"
 )
 
